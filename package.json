@@ -8,20 +8,34 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "bootstrap": "cdk bootstrap",
+    "copyright": "copyright-header --fix --copyrightHolder 'Azuma Realty or its affiliates. All rights reserved.' ",
+    "undeploy": "cdk destroy -f --all",
+    "synth": "cdk synth --no-staging",
+    "lint": "eslint -c .eslintrc src lib test --ext .js,.jsx,.ts,.tsx",
+    "lintfix": "eslint --fix src/ lib/ test/",
+    "upgrade": "npx npm-check-updates -u && npm update"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "20.11.19",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.2",
+    "@types/winston": "^2.4.4",
     "aws-cdk": "2.132.1",
+    "aws-cdk-lib": "^2.132.1",
+    "aws-sdk-mock": "^5.9.0",
+    "constructs": "^10.3.0",
+    "copyright": "^0.0.5",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "npm-check-updates": "^16.14.15",
+    "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "typescript": "~5.3.3"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.132.1",
-    "constructs": "^10.0.0",
-    "source-map-support": "^0.5.21"
+    "@aws-sdk/client-sts": "^3.533.0",
+    "source-map-support": "^0.5.21",
+    "winston": "^3.12.0"
   }
 }

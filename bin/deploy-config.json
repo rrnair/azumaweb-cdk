@@ -1,0 +1,93 @@
+{
+    "local": {
+      "tags": {
+        "project-id": "azuma-realty",
+        "application-id": "azuma-realty-web",
+        "owner": "support@azumarealty.com",
+        "cost-center": "C-01",
+        "environment": "development"
+      },
+      "domain": {
+        "hostedZoneName": "",
+        "hostedZoneId": "",
+        "hostedDomain": "",
+        "domainCertificateID": ""
+      }
+    },
+    "dev": {
+      "tags": {
+        "project-id": "azuma-realty",
+        "application-id": "azuma-realty-web",
+        "owner": "support@azumarealty.com",
+        "cost-center": "C-01",
+        "environment": "development"
+      },
+      "domain": {
+        "hostedZoneName": "dev.bu826.live",
+        "hostedZoneId": "Z08602222O2LVC6F71MSA",
+        "hostedDomain": "dev.bu826.live",
+        "domainCertificateID": "154167ce-1cf8-4670-8ec1-7b7ca848fc44"
+      }
+    },
+    "pr": {
+      "tags": {
+        "project-id": "azuma-realty",
+        "application-id": "azuma-realty-web",
+        "owner": "support@azumarealty.com",
+        "cost-center": "C-01",
+        "environment": "pr"
+      },
+      "domain": {
+        "hostedZoneName": "",
+        "hostedZoneId": "",
+        "hostedDomain": "",
+        "domainCertificateID": ""
+      }
+    },
+    "test": {
+      "tags": {
+        "project-id": "azuma-realty",
+        "application-id": "azuma-realty-web",
+        "owner": "support@azumarealty.com",
+        "cost-center": "C-01",
+        "environment": "test"
+      },
+      "domain": {
+        "hostedZoneName": "dev.bu826.live",
+        "hostedZoneId": "Z08602222O2LVC6F71MSA",
+        "hostedDomain": "dev.bu826.live",
+        "domainCertificateID": "154167ce-1cf8-4670-8ec1-7b7ca848fc44"
+      }
+    },
+    "prod": {
+      "tags": {
+        "project-id": "azuma-realty",
+        "application-id": "azuma-realty-web",
+        "owner": "support@azumarealty.com",
+        "cost-center": "C-01",
+        "environment": "prod"
+      },
+      "domain": {
+        "hostedZoneName": "netwitness.com",
+        "hostedZoneId": "Z07528634EIRW24LC8U8",
+        "hostedDomain": "telemetry-dashboards.netwitness.com",
+        "domainCertificateID": "aa538468-29ff-425c-8774-eec0af5605ac"
+      }
+    },
+    "staging": {
+      "tags": {
+        "project-id": "azuma-realty",
+        "application-id": "azuma-realty-web",
+        "owner": "support@azumarealty.com",
+        "cost-center": "C-01",
+        "environment": "staging"
+      },
+      "domain": {
+        "hostedZoneName": "staging.netwitness.com",
+        "hostedZoneId": "Z093256192ACZZJD7ZTX",
+        "hostedDomain": "telemetry-dashboards.staging.netwitness.com",
+        "domainCertificateID": "b0439ab9-778e-4213-854d-041b63e44b09"
+      }
+    }
+  }
+  

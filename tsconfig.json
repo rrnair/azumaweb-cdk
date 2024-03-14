@@ -6,6 +6,8 @@
       "es2020",
       "dom"
     ],
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
     "declaration": true,
     "strict": true,
     "noImplicitAny": true,

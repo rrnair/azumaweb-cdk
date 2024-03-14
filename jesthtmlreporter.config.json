@@ -1,0 +1,7 @@
+{
+  "pageTitle": "Azuma Web Test Report",
+  "includeConsoleLog": false,
+  "includeFailureMsg": true,
+  "includeSuiteFailure": true,
+  "outputPath": "./test-report/test-report.html"
+}

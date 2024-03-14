@@ -6,11 +6,18 @@ export class AzumawebStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    // The code that defines your stack goes here
+    // Create S3 bucket for hosting static website
+    
+    // Create API Gateway for submitting enquiries
 
-    // example resource
-    // const queue = new sqs.Queue(this, 'AzumawebQueue', {
-    //   visibilityTimeout: cdk.Duration.seconds(300)
-    // });
+    // Create Lambda for processing enquiries and triggering emails
+
+    // Create SES for sending emails
+
+    // Create cloudfront distribution 
+    
+    // Set S3 as origin
+
+    // Set API Gateway as origin
   }
 }
